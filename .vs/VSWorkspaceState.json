@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HW0",
+    "\\HW0\\Hello"
   ],
-  "SelectedNode": "\\HW0",
+  "SelectedNode": "\\HW0\\Hello",
   "PreviewInSolutionExplorer": false
 }
