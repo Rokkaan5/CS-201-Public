@@ -1,0 +1,2 @@
+C:\Users\Rokka\source\repos\Rokkaan5\CS-201-Public\HW0\Hello\Debug\Hello.exe
+C:\Users\Rokka\source\repos\Rokkaan5\CS-201-Public\HW0\Hello\Debug\Hello.pdb
