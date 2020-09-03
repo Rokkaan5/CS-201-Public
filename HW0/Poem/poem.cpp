@@ -10,7 +10,8 @@ using std::endl;
 int main()
 {
 	cout << "The only other sound's the sweep \nOf easy wind and downy flake." << endl;
-	cout << "The woods are lovely, dark and deep, \nBut I have promises to keep, \nAnd miles to go before I sleep," << endl;
+	cout << "The woods are lovely, dark and deep, \nBut I have promises to keep," << endl;
+	cout << "And miles to go before I sleep, " << endl;
 	cout << "And miles to go before I sleep." << endl;
 	return 0;
 }
