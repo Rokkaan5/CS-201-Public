@@ -6,8 +6,9 @@
 #include <iostream>
 using std::cout;
 using std::endl;
+using std::cin;
 
-int numbers(int mini,int maxi)
+int numbers(int mini,int maxi)          // function for printing numbers between two values (Lab3 part1)
 {
 	int i = 1;
 	while (i >= mini and i <= maxi)
@@ -18,7 +19,7 @@ int numbers(int mini,int maxi)
 	return 0;
 }
 
-int boxes(int width,int height)
+int boxes(int width,int height)        // function for printing a box of *'s with specific dimensions (Lab3 part2)
 {
 	int i = 1;
 	while (i < height + 1)
@@ -37,9 +38,14 @@ int boxes(int width,int height)
 
 int main()
 {
-
 	numbers(1,20);
-	boxes(60, 10);
 
+	int h;                                     // variable for height input
+	int w;                                     // variable for width input
+	cout << "Enter height of box: " << endl;
+	cin >> h;
+	cout << "Enter width of box:" << endl;
+	cin >> w;
+	boxes(w, h);
 	return 0;
 }
