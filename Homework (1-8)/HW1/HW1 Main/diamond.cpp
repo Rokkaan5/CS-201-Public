@@ -10,6 +10,7 @@ using std::endl;
 
 int diamond(int size)
 {
+	// Top Half of diamond
 	for (int i = 1; i <= size; ++i)
 	{	
 		for (int j = 0; j < (size - i); ++j)
@@ -22,7 +23,8 @@ int diamond(int size)
 		}
 		cout << endl;
 	}
-
+	//-----------------------------------------
+	// Bottom Half of diamond
 	int l = size - 1;
 	while(l>0)
 	{
@@ -37,7 +39,7 @@ int diamond(int size)
 		cout << endl;
 		--l;
 	}
-
+	//-----------------------------------------
 	return 0;
 }
 
