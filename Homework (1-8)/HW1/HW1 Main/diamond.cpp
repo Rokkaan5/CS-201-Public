@@ -4,11 +4,9 @@
 // Description: A program that inputs a positive interger from a user, and prints a correspondingly sized diamond made of pound signs
 
 #include <iostream>
-#include <string>
 using std::cout;
 using std::cin;
 using std::endl;
-using namespace std;
 
 int diamond(int size)
 {
@@ -50,23 +48,21 @@ int main()
 	cin >> Size;
 
 	// Potential Error Messages
-	/*while (isdigit(Size) == false)
+	
+	while (Size < 0 or Size == 0)
 	{
-		cout << "Please enter an INTEGER (positive & non-zero): ";
-		cin >> Size;
-	}*/
-	while (Size == 0)
-	{
-		cout << "please enter a non-zero integer: ";
-		cin >> Size;
-	}
-	while (Size < 0)
-	{
-		cout << "Please enter a POSITIVE integer: ";
-		cin >> Size;
+		while (Size == 0)
+		{
+			cout << "Please enter a NON-ZERO integer: ";
+			cin >> Size;
+		}
+		while (Size < 0)
+		{
+			cout << "Please enter a POSITIVE integer: ";
+			cin >> Size;
+		}
 	}
 	cout << endl;
-
 	//---------------------
 
 	diamond(Size);
