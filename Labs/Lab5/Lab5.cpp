@@ -11,7 +11,7 @@ using std::endl;
 int main()
 {
 	int number = 1;
-	cout << "This program will output something depneding on the integer inputted. Enter 0 to exit the program" << endl;
+	cout << "This program will output a certain message depending on the integer inputted. Enter 0 to exit the program" << endl;
 	while (true)
 	{
 		cout << "Please input a integer (enter 0 to exit): ";
