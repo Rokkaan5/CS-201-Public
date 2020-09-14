@@ -7,3 +7,39 @@
 using std::cout;
 using std::cin;
 using std::endl;
+
+int main()
+{
+	int number = 1;
+	cout << "This program will output something depneding on the integer inputted. Enter 0 to exit the program" << endl;
+	while (true)
+	{
+		cout << "Please input a integer (enter 0 to exit): ";
+		cin >> number;
+
+		if (number == 0)
+		{
+			break;
+		}
+		
+		switch (number % 10)
+		{
+		case 1:
+			cout << "Bark bark" << endl;
+			break;
+		case 5:
+			cout << "Go! Go! Go!" << endl;
+			break;
+		case 4:
+			cout << "Shhhh" << endl;
+			break;
+		case 8:
+			cout << "Ha ha ha" << endl;
+			break;
+		default:
+			cout << "Meh, not interesting" << endl;
+			break;
+		}
+	}
+	return 0;
+}
