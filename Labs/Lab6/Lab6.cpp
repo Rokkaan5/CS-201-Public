@@ -12,11 +12,15 @@ using std::string;
 
 void printstring(string strng)
 {
-	cout << strng << ";string length is " << strng.length() << endl;
+	cout << strng << endl;
+	cout << "String length is " << strng.length() << endl;
 	return;
 }
 
 int main()
 {
+	printstring("Testing, testing");
+	printstring("Hello, World!");
+	printstring("Hello, hello, hello");
 	return 0;
 }
