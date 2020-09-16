@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Homework (1-8)\\HW1\\HW1-Additional1",
     "\\HW0",
     "\\HW0\\Hello",
-    "\\Labs\\Lab2",
-    "\\Labs\\Lab3",
-    "\\Labs\\Lab4"
+    "\\Labs",
+    "\\Labs\\Lab5"
   ],
-  "SelectedNode": "\\HW0\\Hello\\hello.cpp",
+  "SelectedNode": "\\Labs\\Lab5",
   "PreviewInSolutionExplorer": false
 }
