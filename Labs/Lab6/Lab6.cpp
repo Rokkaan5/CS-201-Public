@@ -10,6 +10,11 @@ using std::cin;
 using std::endl;
 using std::string;
 
+void printstring(string strng)
+{
+	cout << strng << ";string length is " << strng.length() << endl;
+	return;
+}
 
 int main()
 {
