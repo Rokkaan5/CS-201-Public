@@ -1,0 +1,4 @@
+﻿  MTEQ9cpp.cpp
+C:\Users\Rokka\source\repos\Rokkaan5\CS-201-Public\Midterm Exam\Q9\MTEQ9cpp.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rokka\source\repos\Rokkaan5\CS-201-Public\Midterm Exam\Q9\MTEQ9cpp.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+  Q9.vcxproj -> C:\Users\Rokka\source\repos\Rokkaan5\CS-201-Public\Midterm Exam\Q9\Debug\Q9.exe
